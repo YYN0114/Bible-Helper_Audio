@@ -1,26 +1,8 @@
-# Bible Helper Audio
-
-圣经助手音频文件，包含旧约和新约的音频。
-
-## 目录结构
-
-- `down/` - 旧约音频文件
-- `up/` - 新约音频文件
-
-## 文件命名规则
-
-音频文件按照章节编号命名，例如：
-- `01_1.mp3` - 创世记 1 章
-- `02_1.mp3` - 出埃及记 1 章
-- ...
-- `40_1.mp3` - 马太福音 1 章
-- `41_1.mp3` - 马可福音 1 章
-- ...
-
-## 如何使用
-
-将这些音频文件放入 Bible Helper 应用的指定目录中，即可在应用中播放。
-
-## 版本
-
-当前版本：1.0.0
+# Bible-Helper_Audio
+###   注   此软件及音频版权不为我所拥有，我仅进行修改  
+宗旨为修复这个老项目的一切功能。并提供于各弟兄姊妹使用
+若是有侵权请联系我  
+邮箱YYN0114@163.com
+## 借物表
+#### 音频https://github.com/resurgo-cn/bible-mp3-cn/tree/master?tab=readme-ov-file
+#### 软件https://github.com/Paulyoufu/biblehelper_android/tree/master
