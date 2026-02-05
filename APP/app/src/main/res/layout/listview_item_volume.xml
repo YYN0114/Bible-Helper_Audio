@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    
+	<TextView
+        android:id="@+id/ItemViewVolumeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" 
+        android:text="TextView" 
+        android:padding="10dp"
+        android:textSize="20dp">
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/ItemViewChapterCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" 
+        android:text="TextView"
+        android:padding="15dp"
+        android:textSize="15dp"
+        android:gravity="right|center_vertical">
+	</TextView>
+	
+    
+
+</RelativeLayout>

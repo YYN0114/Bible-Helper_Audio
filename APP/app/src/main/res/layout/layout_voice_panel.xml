@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+        
+	<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/buttonplaycontrol"
+            android:background="@drawable/title_btn_right"
+            android:src="@android:drawable/ic_media_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <SeekBar
+            android:id="@+id/seekbarvoice"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+	        android:minHeight="10dip"
+			android:maxHeight="10dip"
+            android:progress="0" />
+        
+		<Button
+		    android:id="@+id/buttondownload"
+			android:background="@drawable/title_btn_right"
+	        android:textSize="14sp"
+	        android:textColor="#fff"
+	        android:layout_width="60dp"
+	        android:layout_height="wrap_content"
+	        android:onClick="onButtonDownloadClick"
+	        android:text="下载" />
+
+            
+    </LinearLayout>
+    
+        
+        
+</LinearLayout>
